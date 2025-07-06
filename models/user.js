@@ -34,6 +34,7 @@ const data = async ()=>{
     })
 
     user1.address.push({location:"Shiv Chock",city:"Muzaffarnagar"});
+    user1.address.push({location:"Gandhi caloni",city:"Muzaffarnagar"});
     let rslt = await user1.save();
     console.log(rslt);
 };
